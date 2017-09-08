@@ -12,16 +12,39 @@ p {font-size: 16px;}
 
 .bg-1 { 
 
-      background-color: #336699; /* Navy */
-      color: #ffffff;
+      background-image: url(images/background_geo.gif);
+      /* Set a specific height */
+      min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
 .bg-2 { 
-      background-color: #cccccc; /* Dark Blue */
-      color: #000000;
+      background-color: #104f55; /* Dark Blue */
+      min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffffff;
   }
 .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
+      background-image: url(images/background_geo_white.gif);
+      /* Set a specific height */
+      min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      color: #000000;
   }
 .bg-4 { 
       background-color: #2f2f2f; /* Black Gray */
@@ -41,7 +64,7 @@ p {font-size: 16px;}
       letter-spacing: 5px;
   }
 .navbar-nav  li a:hover {
-      color: orange !important;
+      color: #4e0250 !important;
 }
 
 .img-circle {
