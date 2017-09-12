@@ -64,7 +64,7 @@ p {font-size: 16px;}
       letter-spacing: 5px;
   }
 .navbar-nav  li a:hover {
-      color: #4e0250 !important;
+      color: #993955 !important;
 }
 
 .img-circle {
@@ -128,7 +128,7 @@ Main Components
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #4e0250;
+  background-color: #993955;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -180,18 +180,18 @@ Main Components
   transition: background-color 0.3s, border-color 0.3s;
 }
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #4e0250;
-  border-color: #4e0250;
+  background-color: #993955;
+  border-color: #993955;
 }
 .cd-horizontal-timeline .events a.selected {
   pointer-events: none;
 }
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #4e0250;
-  border-color: #4e0250;
+  background-color: #993955;
+  border-color: #993955;
 }
 .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #4e0250;
+  border-color: #993955;
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
@@ -256,7 +256,7 @@ Main Components
   right: 0;
 }
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #4e0250;
+  border-color: #993955;
 }
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed;
